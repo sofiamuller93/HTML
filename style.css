@@ -1,4 +1,4 @@
-h1 {
+/*h1 {
     font-weight: bold;
     font-size: 50px;
 }
@@ -7,38 +7,102 @@ h2 {
     font-size: 40px;
 }
 
-h3 {
-    text-align: center;
-}
-
 img {
     margin-left: auto;
     margin-right: auto;
+    float: left;
 }
 
 body {
     background-color: lightgray;
 }
 
-section {
+section, aside {
     background-color: white;
     position: relative;
     left: 25px;
     right: 25px;
     top: 15px;
     bottom: 7px;
-}
-
-h1, h2, h3 {
-    /*margin-left:30px;*/
-    color: darkblue;
-}
-
-p {
-    color: rgb(110, 110, 110)
+    width: 95%;
+    float: left;
 }
 
 h1, h2, h3, img, p {
     margin-left: 25px;
     margin-right: 25px;
 }
+
+.plot img {
+    width: 35%;
+}
+
+aside {
+    margin-left: 5%;
+}
+
+}*/
+
+body {
+    background-color: lightgray;
+}
+
+h1, h2, h3 {
+    color: darkblue;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+#summary img {
+    float: left;
+}
+
+#visualizations img {
+    width: 200px;
+    height: 170px;
+}
+
+section, aside {
+    background-color: white;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+p {
+    color: rgb(110, 110, 110);
+    font-size: 18px;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-header {
+    background: darkblue;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: white;
+}
+
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+
+.plot img {
+    width: 35%;
+}
+
+
+
+
+
