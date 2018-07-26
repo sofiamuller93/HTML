@@ -62,11 +62,13 @@ h1, h2, h3 {
     height: 170px;
 }
 
-section, aside {
+#visualizations, #Summary {
     background-color: white;
     float: left;
-    padding: 5px;
-    margin: 5px;
+}
+
+.col-md-12 {
+    background-color: white;
 }
 
 p {
