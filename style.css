@@ -1,48 +1,3 @@
-/*h1 {
-    font-weight: bold;
-    font-size: 50px;
-}
-
-h2 {
-    font-size: 40px;
-}
-
-img {
-    margin-left: auto;
-    margin-right: auto;
-    float: left;
-}
-
-body {
-    background-color: lightgray;
-}
-
-section, aside {
-    background-color: white;
-    position: relative;
-    left: 25px;
-    right: 25px;
-    top: 15px;
-    bottom: 7px;
-    width: 95%;
-    float: left;
-}
-
-h1, h2, h3, img, p {
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.plot img {
-    width: 35%;
-}
-
-aside {
-    margin-left: 5%;
-}
-
-}*/
-
 body {
     background-color: lightgray;
 }
@@ -69,6 +24,11 @@ h1, h2, h3 {
 
 .col-md-12 {
     background-color: white;
+}
+
+.col-md-6 img {
+    height: 40%;
+    width: 70%;
 }
 
 p {
